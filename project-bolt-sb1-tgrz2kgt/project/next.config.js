@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
+  trailingSlash: true, // Add trailing slashes to URLs
   eslint: {
     ignoreDuringBuilds: true,
   },
